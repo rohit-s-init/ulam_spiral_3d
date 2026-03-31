@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:black;
+            /* flex: none; */
+            overflow: hidden;
+            /* margin: 0px; */
+            /* adding: 0; */
+        }
+        #myBoard {
+            width: 1707px;
+            height: 960px;
+            background-color:black;
+            /* margin: auto; */
+            /* display: block; */
+            /* border: 3px solid brown; */
+            margin-left: -7px;
+            margin-top: -7px;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <canvas id="myBoard" width="1707px" height="960px"></canvas>
+    
+</body>
+
+<!-- <script>
+
+    let canvas = document.getElementById("myBoard");
+    /**@type{CanvasRenderContext2D}*/
+    context = canvas.getContext("2d");
+    context.fillRect(0,0,10,10);
+    context.stroke();
+
+</script> -->
+<script type="module" src="Main.js"></script>
+<script type="module" src="Point.js"></script>
+<script type="module" src="Space.js"></script>
+<script type="module" src="Shapes/Face.js"></script>
+<script type="module" src="Shapes/Path.js"></script>
+
+</html>
